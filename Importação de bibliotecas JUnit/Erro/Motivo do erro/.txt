@@ -1,0 +1,5 @@
+-O problema envolve o local de importação da biblioteca, juntamente com o arquivo module-info.
+
+-Esse erro ocorre no momento em que a biblioteca JUnit é adicionada ao projeto. Seja no momento de criação do projeto ou posteriormente a criação.
+
+-A biblioteca deve ser adicionada no Modulepath, caso ela seja adicionada no Classpath o arquivo module-info não fará os requires necessários.
